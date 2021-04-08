@@ -2,10 +2,6 @@
 
 namespace zaytsev;
 use core\EquationInterface;
-include 'core\EquationInterface.php';
-include 'SolutionEquation.php';
-include 'ZaytsevException.php';
-
 class SolutionOfAQuadraticEquation extends SolutionEquation implements EquationInterface
 {
 
