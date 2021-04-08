@@ -4,8 +4,6 @@
 namespace zaytsev;
 use core\LogInterface;
 use core\LogAbstract;
-include 'core\LogAbstract.php';
-include 'core\LogInterface.php';
 
 class ZaytsevLog extends LogAbstract implements LogInterface
 {
