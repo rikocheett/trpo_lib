@@ -25,7 +25,6 @@ class SolutionOfAQuadraticEquation extends SolutionEquation implements EquationI
         if ($D < 0) {
             throw new ZaytsevException("Error: equation does not exist");
         }
-        ZaytsevLog::log("Determined to be a quadratic equation" . PHP_EOL . "Equation roots:" . PHP_EOL);
         if ($D == 0) {
             $this->X1 = array( ((-$b) / (2 * $a)));
         } elseif ($D > 0) {
